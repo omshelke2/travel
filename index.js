@@ -21,7 +21,7 @@ scanner.addListener('scan', function(content) {
       // Update account balance
       
 //       let accountBalance = 3000;
-      if (accountBalance == 'NaN') {
+      if (accountBalance == NaN) {
         let accountBalance = 3000;
        }
       let accountBalance = parseFloat(localStorage.getItem('accountBalance'));
