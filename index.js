@@ -107,7 +107,7 @@ scanner.addListener('scan', function(content) {
     } else {
       alert('Incorrect Password');
     }
-  } else if (qrValue === secondQR) {
+  } else if (qrValue == secondQR) {
     let password = prompt('Enter Password:');
     if (password === '1234') {
       alert('40 rupees Deducted !!');
