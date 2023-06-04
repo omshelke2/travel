@@ -19,9 +19,9 @@ scanner.addListener('scan', function(content) {
       alert('30 rupees Deducted !!');
 
       // Update account balance
-      
-//       let accountBalance = parseFloat(localStorage.getItem('accountBalance'));
-      let accountBalance = 3000;
+//       let accountBalance = 3000;
+      let accountBalance = parseFloat(localStorage.getItem('accountBalance'));
+     
       accountBalance -= 30;
       localStorage.setItem('accountBalance', accountBalance.toFixed(2));
 
