@@ -16,12 +16,12 @@ scanner.addListener('scan', function(content) {
   if (qrValue === expectedQRValue) {
     let password = prompt('Enter Password:');
     if (password === '1234') {
-      alert('300 rupees Deducted !!');
+      alert('30 rupees Deducted !!');
 
       // Update account balance
-      let accountBalance = 10000;
+      
       let accountBalance = parseFloat(localStorage.getItem('accountBalance'));
-      accountBalance -= 300;
+      accountBalance -= 30;
       localStorage.setItem('accountBalance', accountBalance.toFixed(2));
 
       // Redirect to account details page
