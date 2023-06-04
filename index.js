@@ -1,3 +1,5 @@
+
+
 // Create a new instance of the Instascan scanner
 let scanner = new Instascan.Scanner({
   video: document.getElementById('preview'),
