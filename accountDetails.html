@@ -82,6 +82,7 @@
   
   <script>
     function updateAccountBalance() {
+      let accountBalance = 10000;
       let accountBalance = parseFloat(localStorage.getItem('accountBalance'));
       document.getElementById('accountBalance').innerText = 'Account Balance: $' + accountBalance.toFixed(2);
     }
