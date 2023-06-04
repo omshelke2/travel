@@ -1,3 +1,6 @@
+//login.js
+
+
 // login.js
 function login(event) {
     event.preventDefault();
@@ -17,7 +20,7 @@ function login(event) {
   
     if (user) {
       // Redirect to the account details page
-      window.location.href = "accountDetails.html";
+      window.location.href = "account-details.html";
     } else {
       alert("Invalid username or password. Please try again.");
     }
