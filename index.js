@@ -22,7 +22,7 @@ scanner.addListener('scan', function(content) {
       localStorage.setItem('accountBalance', accountBalance.toFixed(2));
 
       // Redirect to account details page
-      window.location.href = 'index.html';
+      window.location.href = 'accountDetails.html';
     } else {
       alert('Incorrect Password');
     }
