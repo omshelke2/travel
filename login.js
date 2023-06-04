@@ -20,7 +20,7 @@ function login(event) {
   
     if (user) {
       // Redirect to the account details page
-      window.location.href = "account-details.html";
+      window.location.href = "accountDetails.html";
     } else {
       alert("Invalid username or password. Please try again.");
     }
