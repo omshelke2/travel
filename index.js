@@ -19,7 +19,11 @@ scanner.addListener('scan', function(content) {
       alert('30 rupees Deducted !!');
 
       // Update account balance
+      
 //       let accountBalance = 3000;
+      if (accountBalance == 'NaN') {
+        let accountBalance = 3000;
+       }
       let accountBalance = parseFloat(localStorage.getItem('accountBalance'));
      
       accountBalance -= 30;
